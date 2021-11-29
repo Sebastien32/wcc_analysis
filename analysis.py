@@ -8,7 +8,7 @@ import os
 import json
 
 
-def pgnProcess(pgn, event):
+def pgnProcess(f, event):
 
     def pairwise(iterable):
         # pairwise('ABCDEFG') --> AB BC CD DE EF FG
@@ -65,8 +65,8 @@ full_output = []
 events = os.listdir('./analysed_pgns')
 for event in events:
     print(event)
-    f = open(f'analysed_pgns/{event}')
-    event_output = pgnProcess(f, event)
+    with open(f'analysed_pgns/{event}') as f:
+        event_output = pgnProcess(f, event)
     full_output.append(event_output)
 
 with open('analysis.json', 'w') as f:
