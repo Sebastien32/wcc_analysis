@@ -28,32 +28,69 @@ def weighted_combined_acpls(df):
 		df_copy['White ACPL'] / grouped['White Num Moves'].transform('sum') * df_copy['White Num Moves'] + \
 		df_copy['Black ACPL'] / grouped['Black Num Moves'].transform('sum') * df_copy['Black Num Moves']
 	return grouped['Combined Weighted AVG ACPL'].sum(min_count=1)
-
 #print(unweighted_combined_acpls(df))
 #print(weighted_combined_acpls(df))
-plt.style.use('fivethirtyeight')
+
+sns.set_theme(style="darkgrid")
 fig, axes = plt.subplots(figsize=(12,9))
-#sns.boxenplot(x='Year', y='Combined ACPL', data=df, ax = axes)
-#sns.boxplot(x='Year', y='Combined ACPL', data=df, ax = axes)
-#sns.violinplot(x='Year', y='Combined ACPL', data=df, ax = axes, linewidth = 0.01)
-#sns.stripplot(x='Year', y='Combined ACPL', data=df, ax=axes)
-#sns.pointplot(x='Year', y='Combined ACPL', data=df, ax=axes)
+axes.set_title('Combined ACPL by WC Year')
+axes.set_xlabel('Year')
+axes.set_ylabel('Combined ACPL')
+axes.yaxis.grid(True)
+
+sns.boxenplot(x='Year', y='Combined ACPL', data=df, ax = axes)
+axes.set_title('Combined ACPL by WC Year')
+axes.set_xticklabels(axes.get_xticklabels(), rotation=60)
+plt.savefig('boxenplot.png')
+plt.cla()
+
+sns.boxplot(x='Year', y='Combined ACPL', data=df, ax = axes)
+axes.set_title('Combined ACPL by WC Year')
+axes.set_xticklabels(axes.get_xticklabels(), rotation=60)
+plt.savefig('boxplot.png')
+plt.cla()
+
+sns.violinplot(x='Year', y='Combined ACPL', data=df, ax = axes, linewidth = 0.01)
+axes.set_title('Combined ACPL by WC Year')
+axes.set_xticklabels(axes.get_xticklabels(), rotation=60)
+plt.savefig('violinplot.png')
+plt.cla()
+
+sns.stripplot(x='Year', y='Combined ACPL', data=df, ax=axes)
+axes.set_title('Combined ACPL by WC Year')
+axes.set_xticklabels(axes.get_xticklabels(), rotation=60)
+plt.savefig('stripplot.png')
+plt.cla()
+
 sns.barplot(x='Year', y='Combined ACPL', data=df, ax=axes)
 axes.set_title('Combined ACPL by WC Year')
-axes.yaxis.grid(True)
-axes.set_xlabel('Year')
 axes.set_xticklabels(axes.get_xticklabels(), rotation=60)
-axes.set_ylabel('Combined ACPL')
-plt.show()
+plt.savefig('barplot.png')
+plt.cla()
 
+# Some graphs with scaled x-axes
+sns.scatterplot(x='Year', y='Combined ACPL', data=df, ax=axes, hue='Year')
+axes.set_title('Combined ACPL by WC Year')
+plt.savefig('scatterplot.png')
+plt.cla()
+
+fig, axes = plt.subplots(figsize=(12,9))
+sns.regplot(x="Year", y="Combined ACPL", data=df);
+axes.set_title('Combined ACPL by WC Year')
+plt.savefig('regplot.png')
+plt.cla()
+
+fig, axes = plt.subplots(figsize=(12,9))
+sns.lmplot(x="Year", y="Combined ACPL", data=df);
+axes.set_title('Combined ACPL by WC Year')
+plt.savefig('lmplot.png')
+plt.cla()
 
 # Output 3: All WC games, plotted by combined ACPL vs. num moves
 # To illustrate acpl isnt perfect and improves in long games
-# Also makes Nepo-Carlsen more impressive
-'''
-plt.style.use('fivethirtyeight')
-fig, ax = plt.subplots(figsize=(8,6))
-plt.scatter(df['White Num Moves'], df['Combined ACPL'])
-plt.plot()
-plt.show()'''
+fig, axes = plt.subplots(figsize=(12,9))
+sns.scatterplot(x='White Num Moves', y='Combined ACPL', hue='Year', data=df)
+axes.set_ylim((-5, 105))
+plt.savefig('gamelengthscatterplot.png')
+
 # In retrospect this plot is hard to read and not conclusive.
