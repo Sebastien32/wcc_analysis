@@ -80,12 +80,6 @@ axes.set_title('Combined ACPL by WC Year')
 plt.savefig('regplot.png')
 plt.cla()
 
-fig, axes = plt.subplots(figsize=(12,9))
-sns.lmplot(x="Year", y="Combined ACPL", data=df);
-axes.set_title('Combined ACPL by WC Year')
-plt.savefig('lmplot.png')
-plt.cla()
-
 # Output 3: All WC games, plotted by combined ACPL vs. num moves
 # To illustrate acpl isnt perfect and improves in long games
 fig, axes = plt.subplots(figsize=(12,9))

@@ -947,17 +947,6 @@ lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn,20
 lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn,2008,9,"Anand,V",14.409090909090908,44,"Kramnik,V",12.244444444444444,45,26.653535353535354
 lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn,2008,10,"Kramnik,V",14,28,"Anand,V",27.142857142857142,28,41.14285714285714
 lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn,2008,11,"Anand,V",10.217391304347826,23,"Kramnik,V",6.833333333333333,24,17.05072463768116
-lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn.1,2008,1,"Kramnik,V",8.32258064516129,31,"Anand,V",6.125,32,14.44758064516129
-lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn.1,2008,2,"Anand,V",13,31,"Kramnik,V",18.21875,32,31.21875
-lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn.1,2008,3,"Kramnik,V",47.375,40,"Anand,V",27.29268292682927,41,74.66768292682927
-lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn.1,2008,4,"Anand,V",7.714285714285714,28,"Kramnik,V",6.517241379310345,29,14.23152709359606
-lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn.1,2008,5,"Kramnik,V",27.705882352941178,34,"Anand,V",9.028571428571428,35,36.734453781512606
-lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn.1,2008,6,"Anand,V",16.891304347826086,46,"Kramnik,V",27.67391304347826,46,44.565217391304344
-lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn.1,2008,7,"Anand,V",8.057142857142857,35,"Kramnik,V",8.194444444444445,36,16.2515873015873
-lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn.1,2008,8,"Kramnik,V",9.157894736842104,38,"Anand,V",8.692307692307692,39,17.850202429149796
-lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn.1,2008,9,"Anand,V",14.409090909090908,44,"Kramnik,V",12.244444444444444,45,26.653535353535354
-lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn.1,2008,10,"Kramnik,V",14,28,"Anand,V",27.142857142857142,28,41.14285714285714
-lichess_study_2008-world-championship-anand-kramnik_by_Lichess_2021.11.29.pgn.1,2008,11,"Anand,V",10.217391304347826,23,"Kramnik,V",6.833333333333333,24,17.05072463768116
 lichess_study_2012-world-championship-anand-gelfand_by_Lichess_2021.11.29.pgn,2012,1,"Anand,V",11.695652173913043,23,"Gelfand,B",9,24,20.695652173913043
 lichess_study_2012-world-championship-anand-gelfand_by_Lichess_2021.11.29.pgn,2012,2,"Gelfand,B",7.375,24,"Anand,V",6.5,24,13.875
 lichess_study_2012-world-championship-anand-gelfand_by_Lichess_2021.11.29.pgn,2012,3,"Anand,V",15.722222222222221,36,"Gelfand,B",10.621621621621621,37,26.343843843843842
@@ -1019,6 +1008,21 @@ lichess_study_2018-chess-world-championship-carlsen-caruana_by_Lichess_2021.11.2
 lichess_study_2018-chess-world-championship-carlsen-caruana_by_Lichess_2021.11.29.pgn,2018,10,"Caruana, Fabiano",13.377358490566039,53,"Carlsen, Magnus",11.566037735849056,53,24.943396226415096
 lichess_study_2018-chess-world-championship-carlsen-caruana_by_Lichess_2021.11.29.pgn,2018,11,"Carlsen, Magnus",4.5,54,"Caruana, Fabiano",3.381818181818182,55,7.881818181818182
 lichess_study_2018-chess-world-championship-carlsen-caruana_by_Lichess_2021.11.29.pgn,2018,12,"Caruana, Fabiano",20.866666666666667,30,"Carlsen, Magnus",16.70967741935484,31,37.57634408602151
-lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.11.29.pgn,2021,1,"Nepomniachtchi, Ian",7.25,44,"Carlsen, Magnus",8,44,15.25
-lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.11.29.pgn,2021,2,"Carlsen, Magnus",9.842105263157896,57,"Nepomniachtchi, Ian",9.655172413793103,58,19.497277676951
-lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.11.29.pgn,2021,3,"Nepomniachtchi, Ian",3.65,40,"Carlsen, Magnus",2.975,40,6.625
+lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.12.31.pgn,2021,1,"Nepomniachtchi, Ian",7.25,44,"Carlsen, Magnus",8,44,15.25
+lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.12.31.pgn,2021,2,"Carlsen, Magnus",9.842105263157896,57,"Nepomniachtchi, Ian",9.655172413793103,58,19.497277676951
+lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.12.31.pgn,2021,3,"Nepomniachtchi, Ian",3.65,40,"Carlsen, Magnus",2.975,40,6.625
+lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.12.31.pgn,2021,4,"Carlsen, Magnus",6.8125,32,"Nepomniachtchi, Ian",6.375,32,13.1875
+lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.12.31.pgn,2021,5,Ian Nepomniachtchi,6.690476190476191,42,Magnus Carlsen,6.142857142857143,42,12.833333333333334
+lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.12.31.pgn,2021,6,"Carlsen, Magnus",12.97979797979798,99,"Nepomniachtchi, Ian",13.17,100,26.14979797979798
+lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.12.31.pgn,2021,7,"Nepomniachtchi, Ian",2.35,40,"Carlsen, Magnus",2.85,40,5.2
+lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.12.31.pgn,2021,8,Magnus Carlsen,20.444444444444443,45,Ian Nepomniachtchi,32.84444444444444,45,53.288888888888884
+lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.12.31.pgn,2021,9,Ian Nepomniachtchi,20.86842105263158,38,Magnus Carlsen,10.487179487179487,39,31.355600539811064
+lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.12.31.pgn,2021,10,Magnus Carlsen,3.925,40,Ian Nepomniachtchi,2.75,40,6.675
+lichess_study_2021-world-championship-carlsen-vs-ian_by_lichess_2021.12.31.pgn,2021,11,Ian Nepomniachtchi,31.75,48,Magnus Carlsen,21.06122448979592,49,52.81122448979592
+lichess_study_2023-world-championship-nepo-vs-ding_by_lichess_2023.04.18.pgn,2023,1,"Nepomniachtchi, Ian",7.6875,48,"Liren, Ding",8.145833333333334,48,15.833333333333334
+lichess_study_2023-world-championship-nepo-vs-ding_by_lichess_2023.04.18.pgn,2023,2,"Liren, Ding",44.035714285714285,28,"Nepomniachtchi, Ian",14.827586206896552,29,58.86330049261083
+lichess_study_2023-world-championship-nepo-vs-ding_by_lichess_2023.04.18.pgn,2023,3,"Nepomniachtchi, Ian",7.517241379310345,29,"Liren, Ding",7.233333333333333,30,14.75057471264368
+lichess_study_2023-world-championship-nepo-vs-ding_by_lichess_2023.04.18.pgn,2023,4,"Liren, Ding",9.195652173913043,46,"Nepomniachtchi, Ian",20.456521739130434,46,29.652173913043477
+lichess_study_2023-world-championship-nepo-vs-ding_by_lichess_2023.04.18.pgn,2023,5,"Nepomniachtchi, Ian",11.127659574468085,47,"Liren, Ding",18.085106382978722,47,29.212765957446805
+lichess_study_2023-world-championship-nepo-vs-ding_by_lichess_2023.04.18.pgn,2023,6,"Liren, Ding",10.813953488372093,43,"Nepomniachtchi, Ian",17.651162790697676,43,28.46511627906977
+lichess_study_2023-world-championship-nepo-vs-ding_by_lichess_2023.04.18.pgn,2023,7,"Nepomniachtchi, Ian",13.416666666666666,36,"Liren, Ding",25.18918918918919,37,38.60585585585586
