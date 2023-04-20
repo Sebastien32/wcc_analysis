@@ -41,43 +41,43 @@ axes.yaxis.grid(True)
 sns.boxenplot(x='Year', y='Combined ACPL', data=df, ax = axes)
 axes.set_title('Combined ACPL by WC Year')
 axes.set_xticklabels(axes.get_xticklabels(), rotation=60)
-plt.savefig('boxenplot.png')
+plt.savefig('graphics/boxenplot.png')
 plt.cla()
 
 sns.boxplot(x='Year', y='Combined ACPL', data=df, ax = axes)
 axes.set_title('Combined ACPL by WC Year')
 axes.set_xticklabels(axes.get_xticklabels(), rotation=60)
-plt.savefig('boxplot.png')
+plt.savefig('graphics/boxplot.png')
 plt.cla()
 
 sns.violinplot(x='Year', y='Combined ACPL', data=df, ax = axes, linewidth = 0.01)
 axes.set_title('Combined ACPL by WC Year')
 axes.set_xticklabels(axes.get_xticklabels(), rotation=60)
-plt.savefig('violinplot.png')
+plt.savefig('graphics/violinplot.png')
 plt.cla()
 
 sns.stripplot(x='Year', y='Combined ACPL', data=df, ax=axes)
 axes.set_title('Combined ACPL by WC Year')
 axes.set_xticklabels(axes.get_xticklabels(), rotation=60)
-plt.savefig('stripplot.png')
+plt.savefig('graphics/stripplot.png')
 plt.cla()
 
 sns.barplot(x='Year', y='Combined ACPL', data=df, ax=axes)
 axes.set_title('Combined ACPL by WC Year')
 axes.set_xticklabels(axes.get_xticklabels(), rotation=60)
-plt.savefig('barplot.png')
+plt.savefig('graphics/barplot.png')
 plt.cla()
 
 # Some graphs with scaled x-axes
 sns.scatterplot(x='Year', y='Combined ACPL', data=df, ax=axes, hue='Year')
 axes.set_title('Combined ACPL by WC Year')
-plt.savefig('scatterplot.png')
+plt.savefig('graphics/scatterplot.png')
 plt.cla()
 
 fig, axes = plt.subplots(figsize=(12,9))
 sns.regplot(x="Year", y="Combined ACPL", data=df);
 axes.set_title('Combined ACPL by WC Year')
-plt.savefig('regplot.png')
+plt.savefig('graphics/regplot.png')
 plt.cla()
 
 # Output 3: All WC games, plotted by combined ACPL vs. num moves
@@ -85,6 +85,6 @@ plt.cla()
 fig, axes = plt.subplots(figsize=(12,9))
 sns.scatterplot(x='White Num Moves', y='Combined ACPL', hue='Year', data=df)
 axes.set_ylim((-5, 105))
-plt.savefig('gamelengthscatterplot.png')
+plt.savefig('graphics/gamelengthscatterplot.png')
 
 # In retrospect this plot is hard to read and not conclusive.
